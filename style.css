@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+/* first div design start */
+
+.first{
+    width: 1200px;
+    height: 550px; 
+    /* margin: 50px 70px; */
+    align-items: center;
+    justify-content: center;
+    background:#fff;
+    position: relative;
+    text-align: center;
+}
+
+.first img{
+    width: 1200px;
+    height: 550px; 
+    margin: 50px 70px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.first .gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2));
+    border-radius: 10px;
+}
+
+.first .gradient .firstText{
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    margin: 15% 40%;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.firstText h3{
+    font-family: "Roboto Mono";
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.firstText h1{
+    font-family:"Bebas Neue", sans-serif ;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+
+
+/* first div design end */
+
+
+
+/* second div design start */
+
+.second{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 802;
+    height: 806;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* border: 1px solid greenyellow; */
+}
+
+.second img{
+    position: absolute;
+    /* margin: 12% 20%; */
+    width: 500px;
+    height: 500px;
+    margin-left: 150px;
+}
+
+.secondText{
+    /* position: absolute; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.second .secondText h1{
+    color: red;
+    font-size: 45px;
+}
+.second .secondText p{
+    color: red;
+    font-size: 12px;
+}
+.second .secondText h2{
+    color: black;
+}
+
+/* second div design end */
+
+
+/* third div design start */
+
+.third{
+    width: 1200px;
+    height: 550px; 
+    margin-top: 550px;
+    /* margin: 50px 70px; */
+    align-items: center;
+    justify-content: center;
+    background:#fff;
+    position: relative;
+    text-align: center;
+} 
+
+.third img{
+    width: 1200px;
+    height: 550px; 
+    margin: 50px 70px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.third .gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.2));
+    border-radius: 10px;
+}
+
+.third .gradient .thirdText{
+    position: absolute;
+    /* margin: 15% 40%; */
+    margin-left: 7%;
+    margin-top: 15%;
+    text-align: left;
+
+}
+
+.thirdText h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.thirdText p{
+    color: gray;
+}
+
+.thirdText p:hover{
+    color: rgb(255, 255, 255);
+}
+
+.thirdText button{
+    color: #fff;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 4%;
+}
+
+/* third div design end */
+
+
+/* fourth div design start */
+
+.fourth{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin-top: 120px;
+    /* border: 1px solid tomato; */
+}
+
+.fourth .gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(226, 150, 150, 0.8), rgba(224, 130, 130, 0.2));
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.fourth .gradient span{
+    color: red;
+}
+
+.fourth .gradient .fourthText{
+    /* position: absolute; */
+    margin-top: 70px;
+}
+
+.fourthText button{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+/* fourth div design end */
+
+/* five div design start  */
+
+.five{
+    width: 1200px;
+    height: 450px; 
+    /* margin: 230px; */
+    margin: 150px 70px;
+    align-items: center;
+    justify-content: center;
+    background:#fff;
+    /* position: relative; */
+    text-align: center;
+    /* border: 1px solid yellow; */
+    display: flex;
+} 
+
+.fiveText-1{
+    width: 450px;
+    height: 450px;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.fiveText-1 h4{
+    color: red;
+}
+.fiveText-1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fiveText-1 p{
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.five-img{
+    width: 425px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+    /* border: 10px solid red;
+    border-radius: 50%; */
+}
+
+.five-img .round{
+    width: 290px;
+    height: 290px;
+    margin-top: 80px;
+    margin-left: 75px;
+    /* position: absolute; */
+    /* padding: 10px;
+    margin: 10px; */
+    border: 10px solid red;
+    border-radius: 50%;
+}
+
+.five-img img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* position: absolute; */
+}
+
+.fiveText-2{
+    width: 325px;
+    height: 450px;
+    text-align: left;
+    margin-top: 120px;
+}
+
+.fiveText-2 h1{
+    color: red;
+}
+.fiveText-2 img{
+    margin-top: 100px;
+}
+
+
+/* five div design end  */
+
+
+
+/* six div design start  */
+
+
+.six{
+    width: 1200px;
+    height: 990px; 
+    margin: 50px 70px;
+    align-items: center;
+    justify-content: center;
+    background:#fff;
+    text-align: center;
+    /* border: 1px solid green; */
+}
+
+.sixText h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sixText h1 span{
+    color: red;
+}
+.sixText p{
+    text-align: center;
+}
+
+
+.six-img{
+    width: 1200px;
+    height: 600px;
+    margin-top: 100px;
+    position: relative;
+    /* display: flex; */
+}
+
+#six-1{
+    width: 400px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 120px;
+    /* align-items: start; */
+    position: absolute;
+}
+
+#six-2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+#six-3{
+    width: auto;
+    height: auto;
+    margin-left: 755px;
+    /* align-items: end;
+    justify-content: end; */
+
+}
+
+#six-4{
+    width: 1200px;
+    height: auto;
+    margin-top: -10px;
+
+}
+
+/* six div design end  */
+
+
+
+/* seven div design start  */
+
+.seven{
+    width: 1200px;
+    height: 1000px; 
+    margin: 50px 70px;
+    align-items: center;
+    justify-content: center;
+    background:#fff;
+    position: relative;
+    text-align: center;
+    /* border: 1px solid tomato; */
+}
+
+.seven .sevenText{
+    text-align: left;
+}
+.sevenText h4{
+    color: red;
+}
+.sevenText h1{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma;
+}
+
+.seven-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.seven-img img{
+    width: 380px;
+    height: 350px;
+    /* margin-right: 10px; */
+    margin-bottom: 20px;
+}
+
+
+/* seven div design end  */
+
+
+/* eight div design start  */
+
+.eight{
+    width: 1200px;
+    height: 600px; 
+    margin: 50px 70px;
+    align-items: center;
+    justify-content: center;
+    background:#fdd1d1;
+    position: relative;
+    text-align: center;
+    border: 1px solid #fdd1d1;
+}
+
+.eight-img{
+    margin-top: 80px;
+}
+
+.eightText{
+    margin-top: 20px;
+}
+.eightText h1{
+    font-size: 40px;
+    /* font-family: Verdana, Geneva, Tahoma; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT'; */
+    font-weight: 600;
+}
+
+.inputBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    /* text-align: center; */
+    /* position: absolute; */
+    /* width: 100px;
+    height: 100px; */
+    /* border: none; */
+    /* border: 1px solid gold; */
+}
+
+.inputBox input{
+    width: 60%;
+    height: 50px;
+    padding: 10px;
+    align-items: start;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+}
+
+.inputBox button{
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+    color: #fff;
+    background-color: red;
+    border-radius: 30px;
+    border: none;
+    /* display: flex; */
+}
+
+/* eight div design end  */
+
+
+/* nine div design start  */
+
+.nine{
+    width: 1340px;
+    height: 550px; 
+    /* margin: 50px 70px; */
+    margin-top: 50px;
+    background-color: rgb(11, 11, 46);
+}
+
+.columns{
+    width: 1200px;
+    margin: 0px 70px;
+    height: 180px;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+#columns-1{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.columnsRow-1{
+    width: 400px;
+}
+
+#call_web-1{
+    display: flex;
+}
+
+.call{
+    display: 50%;
+}
+
+#call_web-2{
+    display: flex;
+}
+
+.web{
+    display: 50%;
+}
+
+
+#columns-2{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+#columns-2 img{
+    margin-left: 7px;
+    width: 50px;
+}
+
+#columns-3{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.columnsRow-3{
+    width: 400px;
+}
+
+/* nine div design end  */
